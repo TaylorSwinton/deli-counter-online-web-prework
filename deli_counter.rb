@@ -39,3 +39,4 @@ def now_serving(katz_deli)
 end
 
 katz_deli = take_a_number(katz_deli)
+take_a_number(katz_deli)
