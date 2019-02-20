@@ -20,6 +20,7 @@ def take_a_number(katz_deli)
     katz_deli << example
   end
   puts "Welcome, #{katz_deli.length}. You are number #{katz_deli.length} in line."
+  return katz_deli
 =begin
   katz_deli << string
   katz_deli.each_with_index do |name, index|
