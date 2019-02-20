@@ -1,4 +1,3 @@
-
 katz_deli = []
 
 def line(katz_deli)
@@ -13,9 +12,9 @@ def line(katz_deli)
   end
 end
 
-def take_a_number(katz_deli, string)
-  katz_deli << string
-  puts "Welcome, #{string}. You are number #{katz_deli.length} in line."
+def take_a_number(katz_deli)
+  katz_deli
+  puts "Welcome, #{katz_deli.length}. You are number #{katz_deli.length} in line."
 =begin
   katz_deli << string
   katz_deli.each_with_index do |name, index|
